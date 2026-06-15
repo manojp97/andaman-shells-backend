@@ -9,5 +9,6 @@ router.use("/gallery", require("../models/gallery/gallery.routes"));
 router.use("/faqs", require("../models/faq/faq.routes"));
 router.use("/testimonial", require("../models/testimonial/testimonial.routes"));
 router.use("/contacts", require("../models/contact/contact.routes"));
+router.use("/contact-info", require("../models/contactInfo/contactInfo.routes"));
 
 module.exports = router;
