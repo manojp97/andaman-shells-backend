@@ -16,7 +16,7 @@ app.use(cookieParser());
 
 const allowedOrigins = [
   "http://localhost:5173",
-  "https://andaman-shells-umpm.vercel.app",
+  "https://andaman-shells-phi.vercel.app",
 ];
 
 app.use(
